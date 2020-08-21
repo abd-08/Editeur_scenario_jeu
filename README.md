@@ -1,6 +1,9 @@
-# GENERATEUR DE SCENARIO DE JEU SERIEU
+# GENERATEUR DE SCENARIO DE JEU SERIEUX
 ![Ecran principale](ecran%20principale.jpg)
 
+#
+### RAPPEL je n'ai pas pu terminer l'application par faute de temps
+#
 
 ### Fonctionnement de l'outil:
 
