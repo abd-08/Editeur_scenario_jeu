@@ -54,7 +54,8 @@ Un **PNJ** possède un sac. Cela permettra au “marchand” de vendre un nombre
 
 
 
-
+### Lien vers citation
+#
 
 [https://www.researchgate.net/publication/309217386_Using_UML_to_Model_Educational_Games](https://www.researchgate.net/publication/309217386_Using_UML_to_Model_Educational_Games)
 
