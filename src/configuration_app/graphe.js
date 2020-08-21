@@ -1,0 +1,61 @@
+import * as Constants from "./Constants";
+
+export const graphConfig = {
+    /*la configuration des liens et des nodes (formes/taille/ect*/
+    automaticRearrangeAfterDropNode: true,
+    collapsible: false,
+    directed: true,
+    focusAnimationDuration: 1,
+    focusZoom: Constants.GRAPH_DEFAULT_ZOOM,
+    highlightDegree: 1,
+    highlightOpacity: 1,
+    linkHighlightBehavior: false,
+    maxZoom: Constants.GRAPH_MAX_ZOOM,
+    minZoom: Constants.GRAPH_MIN_ZOOM,
+    nodeHighlightBehavior: true,
+    panAndZoom: false,
+    staticGraph: false,
+    height: Constants.GRAPH_HEIGHT,
+    width: Constants.GRAPH_WIDTH,
+    d3: {
+        alphaTarget: 0.05,
+        gravity: -300,
+        linkLength: 80,
+        linkStrength: 1,
+    },
+    node: {
+        color: Constants.GRAPH_NODES_DEFAULT_COLOR,
+        fontColor: Constants.GRAPH_NODES_DEFAULT_FONT_COLOR,
+        fontSize: 8,
+        fontWeight: "normal",
+        highlightColor: "SAME",
+        highlightFontSize: Constants.GRAPH_NODES_DEFAULT_FONT_SIZE,
+        highlightFontWeight: "normal",
+        highlightStrokeColor: "SAME",
+        highlightStrokeWidth: "SAME",
+        labelProperty: "nom",
+        mouseCursor: "pointer",
+        opacity: 1,
+        renderLabel: true,
+        size: Constants.GRAPH_NODES_DEFAULT_SIZE,
+        strokeColor: "none",
+        strokeWidth: 1.5,
+        svg: "",
+        symbolType: Constants.GRAPH_NODES_DEFAULT_SYMBOL_TYPE
+    },
+    link: {
+        color: Constants.GRAPH_LINKS_DEFAULT_COLOR,
+        fontColor: Constants.GRAPH_LINKS_DEFAULT_FONT_COLOR,
+        fontSize: Constants.GRAPH_LINKS_DEFAULT_FONT_SIZE,
+        fontWeight: "normal",
+        highlightColor: Constants.GRAPH_LINKS_DEFAULT_COLOR,
+        highlightFontSize: 8,
+        highlightFontWeight: "normal",
+        labelProperty: "label",
+        mouseCursor: "pointer",
+        opacity: 1,
+        renderLabel: true,
+        semanticStrokeWidth: false,
+        strokeWidth: 1.5
+    }
+};

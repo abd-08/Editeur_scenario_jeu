@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+   background-color: peachpuff;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.App a {
+    text-decoration: none;
+}
+
+.buttonMain {
+    background-color: #2196f3;
+}
+
+.Navigation {
+    text-align: left;
+    padding: 10px;
+}
+
+.Description{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.Graphe {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.entete {
+    background-color: peachpuff;
+
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.entete > .actionsGraphe:not(:last-child) {
+    margin-right: 10px;
+}
+
+.ListEntity{
+  display :flex;
+  flex-direction: column;
+}
+
+.ListLien{
+  display :flex;
+  flex-direction: column;
+}
+
+.lienSuppr{
+  display :flex;
+  flex-direction: row;
+}
+
+.lien{
+  flex: 1;
+}
+
+.flex1, .buttonLien {
+    padding-top: 10px;
+}
+
+.App button {
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+}
+
+.App button:hover {
+    background-color: cornflowerblue;
+}
+
+.RetourModif{
+  display :flex;
+  flex-direction: row;
+
+    position: absolute;
+    bottom: 30px;
+}
+
+.RetourModif > div:not(:last-child), .actionsGraphe > button:not(:last-child) {
+    margin-right: 20px;
+}
+
+.entete > .actionsGraphe {
+  /*padding-right: 10px;*/
+}
+
+.buttonActivite{
+  flex: 1;
+}
+
+.buttonLien{
+  margin-top : 7px;
+}
+
+.test{
+  max-height: 80%;
+  background-color: #999999;
+}
+
+.entite-desc{
+  display:flex;
+}
+
+.row{
+  display:flex;
+}
+.box {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 3px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+
+}
