@@ -2,7 +2,7 @@
 ![Ecran principale](ecran%20principale.jpg)
 
 
-###Fonctionnement de l'outil:
+### Fonctionnement de l'outil:
 
 
 Le projet fonctionne avec npm.
@@ -10,14 +10,14 @@ Le projet fonctionne avec npm.
 Pour le lancement du projet pour la première faire npm update, ensuite npm start.
 
 
-###Techno utilisé:
+### Techno utilisé:
     Le langage utilisé : React js
     Affichage du graphe : react-d3-graph
     Affichage de l'explorateur à gauche : Tree-view
 
 
 
-###INTRODUCTION
+### INTRODUCTION
 #
 
 Le domaine de recherche de notre client se porte sur les jeux sérieux.
@@ -31,12 +31,12 @@ Grâce à cet outil notre client peut :
 
 
 
-###CHOIX MODELISATION (UML)
+### CHOIX MODELISATION (UML)
 #
 ![Modele UML](uml.jpg)
 
 #
-###ABSTRACTION
+### ABSTRACTION
 **Une activité** est un ensemble de **scénarios**, eux-mêmes ensembles de **quêtes**.
 Chaque **quête** a lieu dans un ensemble de cartes, dans lesquelles le **PJ** peut se balader.
 Chaque **quête** est un ensemble de **tâches** à réaliser. 
@@ -56,7 +56,7 @@ Un **PNJ** possède un sac. Cela permettra au “marchand” de vendre un nombre
 
 
 #
-###POUR des eventuelles évolutions du projet
+### POUR des eventuelles évolutions du projet
 Un joueur possède un ensemble de propriétés, de même pour un PNJ “monstre”.
 Ces propriétés peuvent servir pour un combat, mais également pour des quiz ou autres jeux.
 Elles peuvent être également utilisées pour stocker les informations d’un joueur.
